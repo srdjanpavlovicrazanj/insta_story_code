@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'InstaStories' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for InstaStories
+
+  target 'InstaStories-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'InstaStoriesTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'InstaStories-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for InstaStories-tvOS
+
+  # target 'InstaStories-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+end
